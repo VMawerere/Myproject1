@@ -1,0 +1,41 @@
+.Template{
+    background: url(https://media.istockphoto.com/id/1453176904/photo/keyboard-computer-laptop-keyboard-pc-keyboard-black-background.jpg?b=1&s=170667a&w=0&k=20&c=MUbF3e53RmDSEnAXoB39KktMoI9hIs-KUhTZcxUtqnk=);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 10px,0;
+
+}
+
+.Template h1.heading{
+    position: absolute;
+    top:40%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.Template p.subheading{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1rem ;
+    padding: 10px,0;
+    color: grey;
+
+}
+
+.Template a.active {
+    position: relative;
+    top:70%;
+    padding: 10px;
+   
+    
+    
+}
