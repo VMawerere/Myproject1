@@ -1,0 +1,26 @@
+
+.Skills{
+    position:auto;
+    background-color: black;
+    height: 100%;
+   
+    
+}
+
+.Skills li{
+    
+    align-items: center;
+    list-style-type: none;
+}
+.Skills ul li{
+  
+    color: grey;
+    font-size: 1.5rem;
+    
+}
+
+
+ .Skills li:hover {
+    background-color: grey;
+ }
+ 

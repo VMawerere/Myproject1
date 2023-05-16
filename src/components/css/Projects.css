@@ -1,0 +1,30 @@
+.Projects{
+   position: absolute;
+   height: 400px;
+   background-image: url(https://media.istockphoto.com/id/1061123944/photo/abstract-triangles.jpg?b=1&s=170667a&w=0&k=20&c=TjWfrJ3GpypVgLtcI8isotK2EjFsGPL4WArO_YPI5mc=);
+   background-size:cover;
+   background-repeat: no-repeat;
+     
+}
+
+.Projects .projectscards{
+
+    height: 300px;
+    width: 50%;
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap:50px;
+    padding: 20px, 0;
+    margin: auto;
+    border: 1px;
+}
+.Projects .projectscards .card{
+   
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px, 25px;
+    text-align: center;
+}
