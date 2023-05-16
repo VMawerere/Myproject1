@@ -3,14 +3,16 @@ import './css/Navbar.css';
 
 //function Greet(){
   //  return<h1>Welcome to project 2</h1>
+  //<li><button><a href="#Sign up">Sign up</a></button></li>
 //}
 const Navbar = () =>{
     return(
         <div className="Navbar">
           <a href="/" className="logo">Tru Contender</a>
           <ul>
-              <li className="active"><a href="#Documentation">Documentation</a></li>
-              <li><button><a href="#Sign up">Sign up</a></button></li>
+              <li><a href="#Projects">projects</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Contact">Contact</a></li>
 
           </ul>
     

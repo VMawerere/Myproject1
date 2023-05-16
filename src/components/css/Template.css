@@ -1,5 +1,5 @@
 .Template{
-    background: url(https://media.istockphoto.com/id/1453176904/photo/keyboard-computer-laptop-keyboard-pc-keyboard-black-background.jpg?b=1&s=170667a&w=0&k=20&c=MUbF3e53RmDSEnAXoB39KktMoI9hIs-KUhTZcxUtqnk=);
+    background-color: darkslategrey;
     background-size: cover;
     position: relative;
     height: 100vh;
@@ -21,14 +21,24 @@
 
 .Template p.subheading{
     position: absolute;
-    top:50%;
+    top:45%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2rem ;
+    padding: 10px,0;
+    color: grey;
+
+}
+.Template p.qoute{
+    position: absolute;
+    top:55%;
     width: 100%;
     height: auto;
     text-align: center;
     font-size: 1rem ;
     padding: 10px,0;
     color: grey;
-
 }
 
 .Template a.active {
